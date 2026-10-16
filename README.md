@@ -1,52 +1,54 @@
-# Awesome-Container-Orchestration
+# 🚀 Awesome Container Orchestration
 
-## Top Container Orchestration Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Container Orchestration Banner" width="100%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Orchestration?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Orchestration?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Top Container Orchestration Ecosystem
 
-*Focused on Cluster Management, Workload Scheduling & Declarative Deployment*  
+**Curated List of Production SaaS Platforms & Open-Source Cloud-Native Projects**  
+*Focused on Cluster Management, Workload Scheduling, Serverless Containers & Declarative Deployment*  
 
 **Last updated: October 2026**
 
+This comprehensive guide tracks industry-grade **SaaS platforms**, **managed cloud Kubernetes offerings**, and battle-tested **open-source orchestrators**. Whether you are deploying high-throughput microservices, running multi-tenant enterprise clusters, orchestrating GPU-accelerated AI/ML models, or seeking ultra-lightweight setups for IoT/edge, this ecosystem map helps platform engineers and DevOps teams choose the right orchestration architecture.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Container Orchestration**. These tools enable organizations to deploy, scale, and manage containerized applications across clusters—from the industry-standard Kubernetes to lightweight alternatives and serverless container platforms.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🏆 Core Container Orchestrators & Management](#-core-container-orchestrators--management)
+  - [🛠️ Essential Orchestration & Cloud-Native Tooling](#️-essential-orchestration--cloud-native-tooling)
+- [📈 Star History](#star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Kubernetes, Google GKE, AWS EKS, Azure AKS, Red Hat OpenShift, Rancher, VMware Tanzu, Mirantis Cloud, Platform9, Nutanix Karbon, and Docker Compose (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, cluster management, and open orchestration infrastructure—ideal for platform engineers, DevOps teams, and organizations seeking transparent, vendor-independent container infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global container orchestration market is valued at approximately **$2.7 billion in 2026** (scaling from roughly $2.2B in 2024 and projected to surpass $8.5B+ by 2030 at a CAGR exceeding 25–31%). The sector is **moderately concentrated to oligopolistic** at the hyperscaler cloud infrastructure layer (dominated by Microsoft Azure, Amazon AWS, and Google Cloud, which collectively command over 65% of managed Kubernetes deployments), while remaining moderately fragmented and highly competitive in hybrid/multi-cloud management, on-premises distributions, and specialized edge platforms (e.g., Red Hat OpenShift, SUSE Rancher, and VMware Tanzu).
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+*Enterprise managed Kubernetes and serverless container platforms, sorted by parent company market valuation and scale (descending):*
 
 | Product | Provider | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limit | Key Features |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -61,130 +63,150 @@ The global container orchestration market is valued at approximately **$2.7 bill
 | **[DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes)** | DigitalOcean | ~$4.5B+ Market Cap / ~$750M Rev | $0.00/month (Free standard control plane); worker nodes start at $12.00/month (Basic Droplet pool; optional HA control plane at $40/mo) | Free standard control plane forever; $200 platform credit valid for 60 days for new sign-ups | Free control plane, simplified cluster provisioning, integrated load balancers, cost-effective for growing teams |
 | **[SUSE Rancher Prime](https://www.suse.com/products/rancher/)** | SUSE (EQT AB) | ~$800M+ Annual Rev / ~$2.7B Take-Private Valuation | ~$168/month (AWS Marketplace base starter tier for managed vCPUs) or ~$1,200/node/year enterprise subscription | 30-day commercial evaluation free trial (upstream Rancher OSS remains 100% free and open-source forever) | Centralized multi-cluster Kubernetes management across EKS, AKS, GKE, edge, and bare metal; unified RBAC and monitoring |
 
+---
 
+## 🔓 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+*Open-source container orchestrators, engines, distributions, and management platforms, sorted strictly in descending order by GitHub Stars:*
 
+### 🏆 Core Container Orchestrators & Management
 
+1. **[Kubernetes](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
+   **Production-Grade Container Scheduling and Management** (Apache-2.0)  
+   The undisputed global standard for container orchestration—powering over 82% of container users in production. Scales effortlessly up to 5,000 nodes and 150,000 pods per cluster. Provides automated rollout/rollback, horizontal pod autoscaling (HPA), built-in DNS service discovery, self-healing, storage orchestration, and an expansive CNCF ecosystem.
 
-- **[Kubernetes](https://github.com/kubernetes/kubernetes)**  
+2. **[Docker Engine & Swarm (Moby)](https://github.com/moby/moby)** [![Stars](https://img.shields.io/github/stars/moby/moby?style=social&color=white)](https://github.com/moby/moby/stargazers)  
+   **The Open Framework for Container Systems & Built-in Docker Swarm Mode** (Apache-2.0)  
+   The core engine behind Docker containers containing Docker Swarm. Swarm mode turns a group of Docker hosts into a single virtual host with declarative service definitions, overlay networking, secret management, and built-in ingress routing without extra infrastructure overhead.
 
-  **Production-Grade Container Scheduling and Management** (Apache-2.0) . **The industry standard for container orchestration**—**82% of container users run Kubernetes in production** according to the CNCF Annual Survey 2025 . **Scales to 5,000 nodes and 150,000 pods per cluster** . Features **automatic scaling** via Horizontal Pod Autoscaler (HPA), **self-healing**, **service discovery**, **rolling updates**, and **the largest ecosystem of any orchestrator** with **1,700+ CNCF projects** . **66% of organizations hosting generative AI models use Kubernetes for inference** . **The reference implementation for container orchestration** .
+3. **[Portainer](https://github.com/portainer/portainer)** [![Stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
+   **Universal Container Management Web Interface** (zlib License)  
+   A powerful visual management UI for Docker, Docker Swarm, and Kubernetes. Eliminates the complexity of YAML and CLI commands, enabling teams to deploy apps, manage volumes/networks, monitor container health, and enforce RBAC through an intuitive browser dashboard.
 
+4. **[Docker Compose](https://github.com/docker/compose)** [![Stars](https://img.shields.io/github/stars/docker/compose?style=social&color=white)](https://github.com/docker/compose/stargazers)  
+   **Multi-Container Orchestration for Local Development & CI** (Apache-2.0)  
+   The developer standard for defining and running multi-container Docker applications. Define entire microservice application topologies in a declarative `compose.yaml` file with service dependencies, volumes, networks, environment files, and profiles.
 
+5. **[k3s](https://github.com/k3s-io/k3s)** [![Stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers)  
+   **Lightweight, CNCF-Certified Kubernetes Distribution** (Apache-2.0)  
+   Packaged as a single <70 MB binary that installs in under 30 seconds. Strips out legacy, alpha, and in-tree cloud providers, replacing etcd with sqlite3 (or external DBs) while bundling Traefik, CoreDNS, Flannel, and local-path storage. Ideal for edge computing, IoT, ARM devices, and dev environments.
 
-- **[Docker Compose](https://github.com/docker/compose)**  
+6. **[SUSE Rancher](https://github.com/rancher/rancher)** [![Stars](https://img.shields.io/github/stars/rancher/rancher?style=social&color=white)](https://github.com/rancher/rancher/stargazers)  
+   **Multi-Cluster Kubernetes Management Platform** (Apache-2.0)  
+   A complete enterprise container management stack providing unified governance, centralized RBAC, monitoring, logging, and GitOps continuous delivery across any certified Kubernetes distribution (EKS, AKS, GKE, RKE2, k3s, or bare metal).
 
-  **Define and run multi-container applications with Docker** (Apache-2.0) . **The simplest way to orchestrate multi-container applications on a single host**—**define services in a YAML file and run `docker compose up`** . **Great for development, testing, and staging environments, as well as CI workflows** . Features **service discovery via Docker's built-in DNS**, **volume management**, **environment variable support**, and **profiles for optional services** . **The reference implementation for local multi-container development** .
+7. **[HashiCorp Nomad](https://github.com/hashicorp/nomad)** [![Stars](https://img.shields.io/github/stars/hashicorp/nomad?style=social&color=white)](https://github.com/hashicorp/nomad/stargazers)  
+   **Simple, Flexible, and High-Throughput Workload Orchestrator** (BUSL 1.1)  
+   A single-binary orchestrator capable of scheduling Docker containers, non-containerized legacy binaries, Java applications, and VMs across bare-metal and cloud environments. Offers native multi-region federation and seamless integration with HashiCorp Consul and Vault.
 
+8. **[MicroK8s](https://github.com/canonical/microk8s)** [![Stars](https://img.shields.io/github/stars/canonical/microk8s?style=social&color=white)](https://github.com/canonical/microk8s/stargazers)  
+   **Zero-Ops, Pure Kubernetes for Workstations and Appliances** (Apache-2.0)  
+   Canonical's lightweight Kubernetes distribution featuring single-command addon toggling (`microk8s enable ingress dns gpu storage`). Includes automatic security updates, high availability via Dqlite clustering, and seamless GPU passthrough for machine learning workloads.
 
+9. **[k3d](https://github.com/k3d-io/k3d)** [![Stars](https://img.shields.io/github/stars/k3d-io/k3d?style=social&color=white)](https://github.com/k3d-io/k3d/stargazers)  
+   **Fast, Containerized Multi-Node k3s Kubernetes Clusters** (MIT)  
+   A lightweight utility to run multi-node k3s clusters inside Docker containers. Spins up full, ephemeral Kubernetes clusters in seconds for local development, rapid integration tests, and CI/CD pipelines.
 
-- **[k3s](https://github.com/k3s-io/k3s)**  
+10. **[k0s](https://github.com/k0sproject/k0s)** [![Stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers)  
+    **Zero-Friction, Single-Binary Kubernetes Distribution** (Apache-2.0)  
+    A standalone, all-in-one Kubernetes binary without host OS dependencies. Features isolated control plane architecture, flexible storage backends, built-in network security, and minimal maintenance overhead for cloud, bare-metal, and edge deployments.
 
-  **Lightweight Kubernetes** (Apache-2.0) . **The standard for self-hosted Kubernetes**—**a single 70 MB binary installs in 30 seconds** and gives you a **CNCF-certified Kubernetes cluster** with Traefik, CoreDNS, Flannel, and local storage included . **Runs on everything from a Raspberry Pi (512 MB RAM) to a production cluster** . **CNCF-certified with full ecosystem compatibility**. **The most widely adopted lightweight Kubernetes distribution** for edge, IoT, and resource-constrained environments .
+11. **[Karmada](https://github.com/karmada-io/karmada)** [![Stars](https://img.shields.io/github/stars/karmada-io/karmada?style=social&color=white)](https://github.com/karmada-io/karmada/stargazers)  
+    **Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration** (Apache-2.0)  
+    A CNCF incubating project enabling turnkey multi-cloud and hybrid-cloud management. Provides cross-cluster workload propagation, failover, multi-cluster service discovery, and unified API endpoints with 100% native Kubernetes API compatibility.
 
-
-
-- **[Docker Swarm](https://docs.docker.com/engine/swarm/)**  
-
-  **Docker's native, built-in container clustering orchestration engine** (Apache-2.0) . **The simplest orchestrator**—**built into Docker Engine, `docker swarm init` and you have an orchestrator** . **Uses familiar Docker Compose files** with service discovery, load balancing, rolling updates, and secret management . **Practical limit around 1,000 nodes**—**scheduling performance degrades beyond that** . **Note**: **Not actively gaining features** (maintenance mode) and has a **smaller ecosystem than Kubernetes** . **Best for**: small teams, simple applications, and development environments where simplicity is paramount .
-
-
-
-- **[SUSE Rancher](https://github.com/rancher/rancher)**  
-
-  **Complete container management platform** (Apache-2.0) . **The best management UI for Kubernetes**—**provides a web UI for provisioning, managing, and monitoring multiple Kubernetes clusters** . **Deploy k3s, RKE2, or import existing clusters**—Rancher handles **RBAC, monitoring (Prometheus/Grafana), logging, and GitOps (Fleet)** . **Resource-heavy** (1.5+ GB RAM for Rancher itself) and **needs a Kubernetes cluster to run** in production . **Best for**: teams managing multiple Kubernetes clusters .
-
-
-
-- **[MicroK8s](https://github.com/canonical/microk8s)**  
-
-  **Canonical's snap-based Kubernetes distribution** (Apache-2.0) . **The easiest addon management**—**`microk8s enable dns`, `microk8s enable gpu`** makes it easy to add functionality incrementally . Features **built-in private registry**, **GPU support for AI/ML workloads**, and **Dqlite-based HA** . **Requires snap** (not available on all distros) and **heavier than k3s** (540 MB minimum RAM) . **Best for**: Ubuntu users who want batteries-included Kubernetes with easy addon management .
-
-
-
-- **[HashiCorp Nomad](https://github.com/hashicorp/nomad)**  
-
-  **Easy-to-use, flexible, and performant workload orchestrator** (BUSL 1.1) . **The best non-Kubernetes option**—**a single binary with no dependencies** that handles **containers, VMs, Java apps, and raw binaries** . Features **multi-region federation (native)**, **integration with Consul for service discovery and Vault for secrets** . **Note**: **BSL 1.1 license** (not open source) . **Best for**: organizations already using the HashiCorp ecosystem (Terraform, Vault, Consul) or requiring orchestration of non-containerized workloads .
-
-
-
-- **[Portainer](https://github.com/portainer/portainer)**  
-
-  **Lightweight UI for Docker and Kubernetes** (zlib License) . **The best Docker management UI**—**provides a simple, intuitive interface for managing containers, images, networks, and volumes** . **Supports Docker, Swarm, and Kubernetes** from a single interface. **The reference implementation for container management UIs** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[K9s](https://github.com/derailed/k9s)** — Kubernetes CLI to manage clusters in style (Apache-2.0) . **The most popular Kubernetes TUI**—terminal-based UI for cluster management .
-
-- **[Helm](https://github.com/helm/helm)** — The Kubernetes Package Manager (Apache-2.0) . **70% of organizations use Helm to manage deployments** . **The standard for packaging and deploying applications on Kubernetes** .
-
-- **[Artifact Hub](https://artifacthub.io/)** — Find, install and publish Cloud Native packages (Apache-2.0) . **The central repository for Helm charts and CNCF artifacts** .
-
-- **[kubectl](https://github.com/kubernetes/kubectl)** — Kubernetes command-line tool (Apache-2.0) . **The universal CLI for Kubernetes** .
-
-- **[Kubespray](https://github.com/kubernetes-sigs/kubespray)** — Deploy a Production Ready Kubernetes Cluster (Apache-2.0) . **The standard for on-premises Kubernetes deployment** .
-
-- **[Karmada](https://github.com/karmada-io/karmada)** — Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration (Apache-2.0) . **The CNCF multi-cluster orchestration project** .
-
-- **[Volcano](https://github.com/volcano-sh/volcano)** — Cloud native batch computing system for intensive workloads (Apache-2.0) . **The batch scheduling extension for Kubernetes** .
-
-- Community **n8n** workflows for cluster alerting and container lifecycle automation.
-
-
-
-**Frameworks for building custom systems**: Combine **k3s** for lightweight self-hosted Kubernetes with **Rancher** for multi-cluster management, **Helm** for application packaging, **Docker Compose** for local development, and **Portainer** for container management UI—creating a comprehensive container orchestration stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Container orchestration platforms handling production workloads must follow security best practices, implement appropriate RBAC, and comply with applicable regulations.
-
-- **Open-source container orchestration is mature and production-ready.** Kubernetes dominates with **82% production adoption** . **k3s provides CNCF-certified Kubernetes in a 70 MB binary** . **Docker Swarm offers the simplest path to orchestration** . **These are genuine alternatives to commercial platforms.**
-
-- **Kubernetes vs. Docker Swarm: the choice depends on scale and complexity.** Kubernetes for **complex microservices architectures (50+ services), multi-cloud strategies, and large scales**—but requires **3-6 months of skill development** . Docker Swarm for **small teams (under 10 developers), simple applications (under 20 services), and development environments**—**installs in seconds and has the lowest learning curve** . **The pragmatic answer is often both**: Swarm for dev/staging, Kubernetes for production.
-
-- **The "lightweight Kubernetes" category is critical for edge.** **k3s runs in 512 MB RAM** on Raspberry Pi . **MicroK8s requires 540 MB minimum** but offers easy addon management . **Empirical research shows k3s has the lowest resource consumption while k0s and k8s excel in data plane throughput** . **Choose based on your hardware constraints and performance requirements.**
-
-- **Rancher is the management layer, not the orchestrator.** It **provisions and manages clusters**—it is not a Kubernetes distribution itself . **The value is unified management across EKS, AKS, GKE, on-prem, and edge** . **SUSE Rancher Prime is recognized as a Leader in the 2026 Gartner Magic Quadrant for Container Management** .
-
-- **Serverless containers are the emerging alternative.** AWS Fargate, Azure Container Apps, and Google Cloud Run provide **serverless container execution with no cluster to manage** . **Best for**: applications with variable traffic, event-driven workloads, and teams that don't want to manage infrastructure.
-
-- Self-hosted open-source solutions require proper cluster management, security hardening, and ongoing maintenance. **Container platforms are critical infrastructure**—monitor resource consumption, enforce network policies, and maintain backup strategies.
-
-
+12. **[Open Cluster Management (OCM)](https://github.com/open-cluster-management-io/ocm)** [![Stars](https://img.shields.io/github/stars/open-cluster-management-io/ocm?style=social&color=white)](https://github.com/open-cluster-management-io/ocm/stargazers)  
+    **Modular Multi-Cluster Kubernetes Fleet Architecture** (Apache-2.0)  
+    A CNCF sandbox project focused on scalable cluster lifecycle management, policy-driven security governance, and multi-cluster placement algorithms for enterprise hybrid cloud fleets.
 
 ---
 
+### 🛠️ Essential Orchestration & Cloud-Native Tooling
 
+*Crucial companion tools for package management, GitOps synchronization, cluster monitoring, and automated workload delivery (sorted by Stars):*
 
-**Made for platform engineers, DevOps teams, and organizations building transparent container orchestration solutions.**
+1. **[K9s](https://github.com/derailed/k9s)** [![Stars](https://img.shields.io/github/stars/derailed/k9s?style=social&color=white)](https://github.com/derailed/k9s/stargazers)  
+   **Terminal-Based UI for Kubernetes Clusters** (Apache-2.0)  
+   Provides a blazing-fast curses-based terminal dashboard to observe, inspect, port-forward, and manage Kubernetes resources with intuitive vim-style keyboard navigation.
 
-Let's make Container Orchestration more open, data-driven, and scalable.
+2. **[Minikube](https://github.com/kubernetes/minikube)** [![Stars](https://img.shields.io/github/stars/kubernetes/minikube?style=social&color=white)](https://github.com/kubernetes/minikube/stargazers)  
+   **Local Kubernetes Engine for Learning & Testing** (Apache-2.0)  
+   The official Kubernetes SIG tool for quickly spinning up a local single-node or multi-node cluster supporting multiple virtualization drivers (Docker, Podman, Hyper-V, KVM).
+
+3. **[Helm](https://github.com/helm/helm)** [![Stars](https://img.shields.io/github/stars/helm/helm?style=social&color=white)](https://github.com/helm/helm/stargazers)  
+   **The Kubernetes Package Manager** (Apache-2.0)  
+   The standard package manager for defining, versioning, sharing, and deploying complex cloud-native applications across Kubernetes clusters via Helm Charts.
+
+4. **[OpenFaaS](https://github.com/openfaas/faas)** [![Stars](https://img.shields.io/github/stars/openfaas/faas?style=social&color=white)](https://github.com/openfaas/faas/stargazers)  
+   **Serverless Functions & Microservices on Kubernetes** (MIT)  
+   Makes it effortless to deploy event-driven functions and microservice containers to Kubernetes with automated scaling, built-in Prometheus metrics, and native CLI tooling.
+
+5. **[Watchtower](https://github.com/containrrr/watchtower)** [![Stars](https://img.shields.io/github/stars/containrrr/watchtower?style=social&color=white)](https://github.com/containrrr/watchtower/stargazers)  
+   **Automated Container Base Image Updates** (Apache-2.0)  
+   Monitors running Docker containers and seamlessly restarts them whenever upstream image registries push an updated image tag.
+
+6. **[Argo CD](https://github.com/argoproj/argo-cd)** [![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
+   **Declarative GitOps Continuous Delivery for Kubernetes** (Apache-2.0)  
+   Automates application state reconciliation directly from Git repositories, ensuring live cluster state matches committed declarative manifests.
+
+7. **[Kubespray](https://github.com/kubernetes-sigs/kubespray)** [![Stars](https://img.shields.io/github/stars/kubernetes-sigs/kubespray?style=social&color=white)](https://github.com/kubernetes-sigs/kubespray/stargazers)  
+   **Ansible-Powered Production Kubernetes Deployer** (Apache-2.0)  
+   The gold standard for automated bare-metal, OpenStack, and on-premises production Kubernetes cluster provisioning and lifecycle operations.
+
+8. **[Flux CD](https://github.com/fluxcd/flux2)** [![Stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers)  
+   **Open & Extensible Continuous Delivery Engine for Kubernetes** (Apache-2.0)  
+   A CNCF graduated GitOps toolkit that automates cluster configuration synchronization with Git repositories and OCI image registries.
+
+9. **[Knative Serving](https://github.com/knative/serving)** [![Stars](https://img.shields.io/github/stars/knative/serving?style=social&color=white)](https://github.com/knative/serving/stargazers)  
+   **Serverless Workload Management & Autoscaling for Kubernetes** (Apache-2.0)  
+   The foundation behind Google Cloud Run, offering scale-to-zero, request-driven autoscaling, and zero-downtime routing snapshots.
+
+10. **[Volcano](https://github.com/volcano-sh/volcano)** [![Stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=social&color=white)](https://github.com/volcano-sh/volcano/stargazers)  
+    **High-Performance Batch Computing System for Kubernetes** (Apache-2.0)  
+    A CNCF batch scheduling engine tailored for AI/ML training, big data analytics (Spark, Flink, PyTorch, TensorFlow), and HPC workloads.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Container-Orchestration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Container-Orchestration&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting **Awesome Container Orchestration**! 🌟
+
+Maintaining this curated ecosystem guide takes ongoing research, real-time pricing verification, and open-source tracking. If you find this resource valuable for your platform architecture, infrastructure decisions, or engineering workflow:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** your favorite orchestrators and battle-tested tools.
+- 📢 **Share with your team** and fellow DevOps / cloud-native engineers.
+- ☕ **Buy me a coffee & support future maintenance**:  
+  👉 **[Sponsor on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)**
+
+Your support makes a huge difference in keeping this repository fresh, accurate, and comprehensive!
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 📝 **Add or update entries** in `README.md` following the tabular or bulleted format.
+3. 🔍 Ensure all links point to official websites/repositories and descriptions remain factual and objective.
+4. 🚀 **Submit a Pull Request** with a concise description of your changes.
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an independent **community-curated collection** intended for educational, architectural, and informational purposes. Mention of specific vendors or projects does not constitute formal endorsement.
+- Production container environments must adhere to security hardening, robust identity management (RBAC), TLS encryption, network isolation, and organizational compliance policies.
+- Pricing metrics, limits, and cloud provider tiers are tracked accurately as of October 2026; always consult official vendor documentation for live regional billing rates and enterprise agreements.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for platform engineers, SREs, and cloud-native architects worldwide.</b><br>
+  <i>Let's make Container Orchestration more open, automated, and scalable.</i>
+</p>
