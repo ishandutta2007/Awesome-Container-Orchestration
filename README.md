@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,67 +42,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global container orchestration market is valued at approximately **$2.7 billion in 2026** (scaling from roughly $2.2B in 2024 and projected to surpass $8.5B+ by 2030 at a CAGR exceeding 25–31%). The sector is **moderately concentrated to oligopolistic** at the hyperscaler cloud infrastructure layer (dominated by Microsoft Azure, Amazon AWS, and Google Cloud, which collectively command over 65% of managed Kubernetes deployments), while remaining moderately fragmented and highly competitive in hybrid/multi-cloud management, on-premises distributions, and specialized edge platforms (e.g., Red Hat OpenShift, SUSE Rancher, and VMware Tanzu).
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine)**  
-
-  **Google Cloud's managed Kubernetes service** with **Standard and Autopilot modes**—the latter fully manages nodes for you . Features **automated cluster management, scaling, upgrades, and monitoring**. **Strong support for AI workloads** and serverless containers via **Knative** . Integration with Google Cloud security, compliance, and data services.
-
-
-
-- **[Amazon EKS](https://aws.amazon.com/eks/)**  
-
-  **AWS's managed Kubernetes service** with **managed node groups, Fargate integration, and deep AWS ecosystem integration**. Features **EKS Anywhere** for on-premises and edge deployments. **The most integrated with AWS ecosystem**—IAM, VPC, CloudWatch, and ECR.
-
-
-
-- **[Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/)**  
-
-  **Microsoft's managed Kubernetes service** with **integration with Microsoft Entra ID, Azure Monitor, and GitHub Actions/Azure DevOps** . Features **node autoscaling, Windows and Linux node pools, and confidential computing options** for sensitive workloads .
-
-
-
-- **[Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)**  
-
-  **Enterprise-grade, Kubernetes-based platform** with a **developer-friendly interface and integrated CI/CD pipelines** on top of standard Kubernetes . Features **enhanced built-in security and policy controls**, **multi-cloud and hybrid cloud deployments**, and **Operators that automate complex tasks** .
-
-
-
-- **[SUSE Rancher Prime](https://www.suse.com/products/rancher/)**  
-
-  **Enterprise Kubernetes management platform** with **centralized management of clusters running on EKS, AKS, GKE, on-premises, or edge environments** . Features **unified authentication, role-based access control, and monitoring** across all managed clusters . **Recognized as a Leader in the 2026 Gartner Magic Quadrant for Container Management** .
-
-
-
-- **[VMware Tanzu](https://www.vmware.com/products/app-platform/tanzu-kubernetes-grid)**  
-
-  **Commercial platform for building, running, and managing Kubernetes-based applications** across clouds and on-premises infrastructure . Features **enterprise support and governance**, **packaged Kubernetes runtime**, and **close integration with VMware vSphere environments** .
-
-
-
-- **[DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes)**  
-
-  **Managed Kubernetes with a simplified interface** and **free control plane** . **Suitability for startups and smaller-scale deployments** that can still scale to enterprise needs . Integration with other DigitalOcean services.
-
-
-
-- **[AWS Fargate](https://aws.amazon.com/fargate/)**  
-
-  **Serverless compute engine for containers** that runs with **Amazon ECS and Amazon EKS** . Features **per-second billing** based on vCPU and memory each task uses, and **task-level isolation for security** .
-
-
-
-- **[Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/)**  
-
-  **Serverless container platform built on Kubernetes, KEDA, Dapr, and Envoy** . Features **automatic scaling including scale-to-zero**, **support for HTTP services, background jobs, and event-driven processing** .
-
-
-
-- **[Google Cloud Run](https://cloud.google.com/run)**  
-
-  **Managed platform for running containerized applications in a serverless environment**, built on the open-source **Knative** project . Features **automatic scaling including scale-to-zero**, **pay-per-use billing**, and **support for stateless HTTP services** .
+| Product | Provider | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limit | Key Features |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/)** | Microsoft | ~$3.1T+ Market Cap / ~$245B Rev | $0.00/hr (Free cluster management tier); pay only for worker VMs (starting ~$0.0104/hr for B-series) or optional Uptime SLA at $0.10/cluster/hr | Free cluster control plane forever (standard tier); $200 Azure credit for 30 days + 12 months popular free services for new accounts | Deep Microsoft Entra ID integration, Azure Monitor, GitHub Actions CI/CD, confidential computing nodes |
+| **[Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/)** | Microsoft | ~$3.1T+ Market Cap / ~$245B Rev | $0.000024/vCPU-s and $0.000003/GiB-s (Consumption plan active compute); $0.40 per 1M HTTP requests | 180,000 vCPU-seconds, 360,000 GiB-seconds, and 2,000,000 HTTP requests free every month (Consumption tier) | Serverless container platform built on Kubernetes, KEDA, Dapr, Envoy; scale-to-zero support |
+| **[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine)** | Google (Alphabet) | ~$2.2T+ Market Cap / ~$350B Rev | $0.10/cluster/hr (Standard cluster management fee, offset by $74.40 monthly credit) or Autopilot pod pricing ($0.0445/vCPU-hr + $0.0049/GiB-hr) | $74.40/month cluster management credit per billing account (covers 1 free zonal or Autopilot cluster forever); plus $300 credit 90-day trial | Fully managed Standard and Autopilot modes, automated upgrades, strong TPU/GPU AI workload support |
+| **[Google Cloud Run](https://cloud.google.com/run)** | Google (Alphabet) | ~$2.2T+ Market Cap / ~$350B Rev | $0.000024/vCPU-s and $0.0000025/GiB-s (Tier 1 compute); $0.40 per 1M requests | 2,000,000 requests, 180,000 vCPU-seconds, 360,000 GiB-seconds, and 1 GiB egress free every month | Knative-based serverless container runtime, automatic scale-to-zero, fast cold starts, pay-per-use billing |
+| **[Amazon EKS](https://aws.amazon.com/eks/)** | Amazon (AWS) | ~$2.0T+ Market Cap / ~$620B Rev | $0.10/cluster/hr ($73/month flat control plane fee); pay for EC2 worker nodes or Fargate compute | No perpetual free control plane; 12-month AWS Free Tier grants 750 hrs/mo of t2/t3.micro EC2 compute + 30-day Free Trial for EKS Anywhere | Managed node groups, Fargate integration, deep AWS IAM/VPC integration, EKS Anywhere for hybrid/on-prem |
+| **[AWS Fargate](https://aws.amazon.com/fargate/)** | Amazon (AWS) | ~$2.0T+ Market Cap / ~$620B Rev | $0.04048/vCPU-hr and $0.004445/GB-hr (Linux x86 On-Demand, 1-min minimum); Fargate Spot from ~$0.0129/vCPU-hr | No perpetual free compute allowance (20 GB ephemeral storage included free per task); 12-month AWS Free Tier grants $100–$300 sign-up credits | Serverless compute engine for ECS and EKS; eliminates EC2 node management; task-level VM isolation |
+| **[VMware Tanzu](https://www.vmware.com/products/app-platform/tanzu-kubernetes-grid)** | Broadcom | ~$850B+ Market Cap / ~$51B Rev | ~$350–$500/core/year (bundled under VMware Cloud Foundation (VCF) / vSphere Foundation; 16-core/CPU & 72-core order minimums) | 90-day evaluation proof-of-concept (PoC) free trial via Broadcom Support Portal | Enterprise Kubernetes runtime, tightly integrated with VMware vSphere, packaged governance and platform tooling |
+| **[Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)** | IBM / Red Hat | ~$215B+ Market Cap / ~$63B Rev | $0.171 per 4 vCPUs/hr (on-demand managed cloud, e.g., ROSA/ARO; ~$1,500/year per core-pair); self-managed from ~$1,000/core-pair/yr | 60-day self-managed evaluation trial (full enterprise features) or 30-day sandbox trial (Red Hat Developer Sandbox with 20 GB storage) | Enterprise Kubernetes with built-in CI/CD pipelines, full stack automated operations, multi-cloud and hybrid deployments |
+| **[DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes)** | DigitalOcean | ~$4.5B+ Market Cap / ~$750M Rev | $0.00/month (Free standard control plane); worker nodes start at $12.00/month (Basic Droplet pool; optional HA control plane at $40/mo) | Free standard control plane forever; $200 platform credit valid for 60 days for new sign-ups | Free control plane, simplified cluster provisioning, integrated load balancers, cost-effective for growing teams |
+| **[SUSE Rancher Prime](https://www.suse.com/products/rancher/)** | SUSE (EQT AB) | ~$800M+ Annual Rev / ~$2.7B Take-Private Valuation | ~$168/month (AWS Marketplace base starter tier for managed vCPUs) or ~$1,200/node/year enterprise subscription | 30-day commercial evaluation free trial (upstream Rancher OSS remains 100% free and open-source forever) | Centralized multi-cluster Kubernetes management across EKS, AKS, GKE, edge, and bare metal; unified RBAC and monitoring |
 
 
 
