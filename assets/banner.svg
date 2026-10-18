@@ -42,6 +42,7 @@
   </defs>
 
   <style>
+    <![CDATA[
     /* Continuous background pulse & flow animations */
     @keyframes pulseGlow {
       0%, 100% { opacity: 0.35; transform: scale(1); }
@@ -86,6 +87,7 @@
     .radar-pulse {
       animation: radarWave 3.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
     }
+    ]]>
   </style>
 
   <!-- Base Card Background -->
